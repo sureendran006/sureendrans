@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+			background-image: url('https://th.bing.com/th/id/OIP.m88LJOb8vAMWM0QmSEND3wHaFj?rs=1&pid=ImgDetMain');
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position:center;
+        }
+        table {
+            width: 100%; 
+            max-width: 600px; 
+            background-color: lightgreen;
+            padding: 20px;
+            border-radius: 50px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+			border:4px red solid;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        tr th h3{
+            background-color: #f2f2f2;
+        }
+		h2  {
+		 color: blue;
+		}
+		#username{
+		color:red;
+		}
+		h3:hover {
+         color: red;
+        }
+		
+    </style>
+ 
+</head>
+<body>
+ <form action="#" method="post">
+ <h2>Login</h2>
+ <h2  id="username" >Login</h2>
+   <table   >
+       <tr>
+    <th><label for="username">Username:</label></th>
+    <th><input type="text" id="username" name="username" required></th>
+    
+  </tr>
+  <tr>
+    <th> <label for="password">Password:</label></th>
+    <th><input type="text" id="password" name="password" required></th>
+   
+  </tr>
+  <tr>
+  <th>
+  </th>
+  <th><button class="my-button">login</button>
+  </th>
+  </tr>
+        </table >
+		
+        
+           
+           
+            
+        </form>
+   
+</body>
+</html>
